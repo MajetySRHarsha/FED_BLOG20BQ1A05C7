@@ -1,0 +1,190 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -6.25em;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #27bcda;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 20px;
+    height: 20px;
+  }
+.content {
+    width: 1000px;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+    height: 100%;
+    overflow: auto;
+    min-height: 100%;
+}
+
+.footer {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: auto;
+}
+.footer-content h4 {
+    display: flex;
+    align-items: center;
+    float: left;
+    justify-content: center;
+    width: 50;
+    padding-left: 25%;
+    flex-direction: column;
+    text-align: center;
+    overflow: auto;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    width:20px;
+    height: 20px;
+  }
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+    overflow: auto;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    overflow: left;
+    float: left;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    overflow: auto;
+}
+
+.footer-bottom p a {
+    overflow: auto;
+    color: #44bae8;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.nav-menu {
+    float: center;
+    overflow: auto;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.nav-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.nav-menu ul li a:hover {
+    color: #27bcda;
+}
+
+.article {
+    padding: 0 15px;
+    width: 900px;
+    max-width: 60%;
+    float: left;
+    background: transparent !important;
+    overflow: auto;
+    margin: 0 15px 0 0;
+  }
+.article h1 h2{
+    margin-top: 10;
+    margin-left: 0;
+    float: left;
+    overflow: auto;
+  }
+  
+.aside {
+    top: 45px;
+    height:25%;
+    width: 200px;
+    background: rgba(235, 4, 4, 0.07);
+    padding: 30px 20px;
+    max-width: 20%;
+    overflow: auto;
+    z-index: 1;
+  }
+.aside h3 {
+    margin: 0;
+    overflow: auto;
+  }
+.aside svg {
+    width: 100px;
+    max-width: 100%;overflow: auto;
+    display: block;
+    margin: 0 auto;
+  }
+.aside .infos-auteur h2 {
+    font-size: 20px;
+    text-align: center;overflow: auto;
+  }
+.aside .infos-auteur span {
+    display: block;
+    padding: 0 2px 5px 2px;overflow: auto;
+  }
+  
+.article,
+  aside {
+    float: left;
+  }
+  .ll h1 h2{
+    float: left;
+    overflow: auto;
+  }
+  .ll{
+    overflow: auto;
+    float: left;
+  }
